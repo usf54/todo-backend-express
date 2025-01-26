@@ -13,7 +13,6 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-const cors = require('cors');
 const corsOptions = {
   origin: 'https://usf54.github.io/todolist-react/',  // Replace with your frontend URL
   methods: 'GET,POST,PUT,DELETE',  // Specify the methods you want to allow
